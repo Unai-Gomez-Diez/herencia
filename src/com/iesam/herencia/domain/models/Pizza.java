@@ -6,7 +6,7 @@ public class Pizza {
         protected String salsa;
         protected String extras;
 
-    public String getId(String s) {
+    public String getId(String id) {
         return id;
     }
 
@@ -14,7 +14,7 @@ public class Pizza {
         this.id = id;
     }
 
-    public String getNombre(String barbacoa) {
+    public String getNombre(String nombre) {
         return nombre;
     }
 
