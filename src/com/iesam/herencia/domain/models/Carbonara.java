@@ -4,7 +4,7 @@ public class Carbonara extends Pizza{
     private boolean queso_azul;
     private boolean queso_cabra;
 
-    public boolean isQueso_azul() {
+    public boolean getQueso_azul() {
         return queso_azul;
     }
 
@@ -12,7 +12,7 @@ public class Carbonara extends Pizza{
         this.queso_azul = queso_azul;
     }
 
-    public boolean isQueso_cabra() {
+    public boolean getQueso_cabra() {
         return queso_cabra;
     }
 

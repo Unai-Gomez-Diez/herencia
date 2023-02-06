@@ -3,7 +3,7 @@ package com.iesam.herencia.domain.models;
 public class Campera extends Pizza{
     private boolean carne;
 
-    public boolean isCarne() {
+    public boolean getCarne() {
         return carne;
     }
 
