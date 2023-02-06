@@ -44,6 +44,20 @@ public class Main {
         horno2.setMarca("Hornos horneados");
         horno2.setTemperatura(350);
         horno2.getPizzaBarbacoa(barbacoa);
+
+        Horno horno3 = new Horno();
+        horno3.setId("1");
+        horno3.setNombre("Horno Campera");
+        horno3.setMarca("Hornos horneados");
+        horno3.setTemperatura(350);
+        horno3.getPizzaCampera(campera);
+
+        Horno horno4 = new Horno();
+        horno4.setId("1");
+        horno4.setNombre("Horno Carbonara");
+        horno4.setMarca("Hornos horneados");
+        horno4.setTemperatura(350);
+        horno4.getPizzaCarbonara(carbonara);
     }
 
 }
