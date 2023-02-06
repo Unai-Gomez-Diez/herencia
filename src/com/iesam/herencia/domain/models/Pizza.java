@@ -3,10 +3,10 @@ package com.iesam.herencia.domain.models;
 public class Pizza {
         private String id;
         private String nombre;
-        private String salsa;
-        private String extras;
+        protected String salsa;
+        protected String extras;
 
-    public String getId() {
+    public String getId(String s) {
         return id;
     }
 
@@ -14,7 +14,7 @@ public class Pizza {
         this.id = id;
     }
 
-    public String getNombre() {
+    public String getNombre(String barbacoa) {
         return nombre;
     }
 

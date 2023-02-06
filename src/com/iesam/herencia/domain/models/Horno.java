@@ -5,6 +5,18 @@ public class Horno {
     private String nombre;
     private String marca;
     private Integer temperatura;
+    private Pizza pizza;
+
+    public Pizza getPizzaCampera(Campera campera) {
+        return campera;
+    }
+
+    public Pizza getPizzaBarbacoa(Barbacoa barbacoa){
+        return barbacoa;
+    }
+    public Pizza getPizzaCarbonara(Carbonara carbonara) {
+        return carbonara;
+    }
 
     public String getId() {
         return id;
@@ -37,4 +49,6 @@ public class Horno {
     public void setTemperatura(Integer temperatura) {
         this.temperatura = temperatura;
     }
+
+
 }
